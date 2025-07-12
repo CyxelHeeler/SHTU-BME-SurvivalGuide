@@ -1,30 +1,8 @@
-title: DeepLabCut
-author: The DeepLabCut Team
-logo: docs/images/logo.png
-only_build_toc_files: true
-
-sphinx:
-  config:
-    autodoc_mock_imports: ["wx", "matplotlib", "qtpy", "PySide6", "napari", "shiboken6"]
-    mermaid_output_format: raw
-  extra_extensions:
-    - numpydoc
-    - sphinxcontrib.mermaid
-
-execute:
-  execute_notebooks: "off"
-
-html:
-  extra_navbar: ""
-  use_issues_button: true
-  use_repository_button: true
-  extra_footer: |
-    <div>Powered by <a href="https://jupyterbook.org/">Jupyter Book</a>.</div>
-
-repository:
-  url: https://github.com/DeepLabCut/DeepLabCut
-  path_to_book: docs
-  branch: main
-
-launch_buttons:
-  colab_url: "https://colab.research.google.com/github/DeepLabCut/DeepLabCut/blob/master/examples/COLAB/COLAB_YOURDATA_TrainNetwork_VideoAnalysis.ipynb"
+# _config.yml
+title: "SHTU-BME生存指南"
+theme: jekyll-theme-merlot  # 类似DeepLabCut的深色主题
+description: >
+  上海科技大学生物医学工程专业本科生生存指南
+baseurl: "/SHTU-BME-SurvivalGuide" 
+plugins:
+  - jekyll-toc  # 自动生成目录
